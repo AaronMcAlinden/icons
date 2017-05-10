@@ -1,0 +1,354 @@
+body	{
+	margin: 0;
+	padding: 0;
+	margin-top: -16px;
+}
+
+nav	{
+	font-family: "bodoni-urw";
+	color: #FF7E8D;
+	font-size: 64px;
+	font-weight: 600;
+	position: fixed;
+	right: 0;
+	top: 0;
+	margin-top: -60px;
+	text-align: center;
+	
+	
+	
+}
+
+
+
+ul	{
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	padding-right: 20px;
+	float: right;
+}
+
+li 	{
+	
+}
+
+a	{
+	text-decoration: none;
+	color:  inherit;
+}
+
+a:hover	{
+	color: #B6BCFF;
+	transition: .3s;
+	
+}
+
+a:active	{
+	color: #B6BCFF;
+	
+}
+
+
+h1{
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 800px;
+	background-color: #4E5DFF;
+}
+
+header h1	{
+	font-family: "bodoni-urw";
+	font-size: 180px;
+	color: #B6BCFF;
+	font-weight: 500;
+}
+
+header p	{
+	font-family: "bodoni-urw";
+	font-weight: lighter;
+	font-size: 48px;
+	color: #B6BCFF;
+	width: 500px;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	line-height: 48px;
+}
+
+section		{
+	width: 100%;
+	font-family: "bodoni-urw";
+	font-size: 40px;
+}
+
+.breaking_bad	{
+	height: 800px;
+	width: 100%;
+	background: #C2F9F4;
+}
+
+.big_lebowski	{
+	height: 800px;
+	width: 100%;
+	background: #BDFFC3;
+}
+
+.pulp	{
+	height: 800px;
+	width: 100%;
+	background: #F2978B;
+}
+
+.forrest_gump	{
+	height: 800px;
+	width: 100%;
+	background: #D2F4FF;
+}
+
+.cheech_chong	{
+	height: 800px;
+	width: 100%;
+	background: #C9F7DB;
+}
+
+
+.header_text	{
+	position: relative;
+	top: 210px;
+}
+
+
+
+.bg	{
+	background-image: url(images/icon_bg@2x.png);
+	background-size:cover;
+	height: 800px;
+	width: 100%;
+}
+
+.icon_title	{
+	color: #FF7E8D;
+}
+
+.wrapper	{
+	margin: 0 35px 0 35px;
+}
+
+
+.line{
+	margin: 10px 0 10px 35px;
+	padding: 0;
+	height: 40px;
+	border-left: solid 2px ;
+
+}
+
+.walter	{
+	padding-top: 100px;
+	height: 350px;
+}
+
+.dude	{padding-top: 100px;
+	height: 350px;}
+
+.vince	{
+	padding-top: 100px;
+	height: 350px;
+}
+
+
+.chong	{
+	padding-top: 100px;
+	height: 350px;
+}
+
+.lt_dan	{
+	padding-top: 100px;
+	height: 350px;
+}
+
+
+
+
+section	{
+	padding: 50px 0;
+}
+
+section .wrapper	{
+	
+	margin: 0 125px 0 -50px;
+	
+	
+}
+
+.walter	.icon{
+	width: 350px;
+	height: 350px;
+	float: right;
+	background: url(images/mr_white.svg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+.jesse .icon	{
+	
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin-left: 155px;
+	background: url(images/jesse.svg);
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+.dude	.icon{
+	width: 350px;
+	height: 350px;
+	float: right;
+	background: url(images/dude.svg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+.walter_sob .icon	{
+	
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin-left: 155px;
+	background: url(images/walter.svg);
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.vince	.icon{
+	width: 350px;
+	height: 350px;
+	float: right;
+	background: url(images/vince.svg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+.jules	.icon{
+	width: 350px;
+	height: 350px;
+	float: right;
+	background: url(images/jules.svg);
+	background-size: cover;
+	background-position: center;
+}
+
+.chong	.icon{
+	width: 350px;
+	height: 350px;
+	float: right;
+	background: url(images/chong.svg);
+	background-size: cover;
+	background-position: center;
+}
+
+.cheech	.icon{
+	width: 350px;
+	height: 350px;
+	float: right;
+	background: url(images/cheech.svg);
+	background-size: cover;
+	background-position: center;
+}
+
+.lt_dan	.icon{
+	width: 350px;
+	height: 350px;
+	float: right;
+	background: url(images/lt_dan.svg);
+	background-size: cover;
+	background-position: center;
+}
+
+.forrest	.icon{
+	width: 350px;
+	height: 350px;
+	float: right;
+	background: url(images/forrest_gump.svg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+.bubble {
+	margin-top: 50px;
+  position: relative;
+  padding: 20px;
+	width: 350px;
+	border: 2px solid #4E5DFF;
+  border-radius: 20px;
+  
+  line-height: 1.25em;
+	margin-left: 150px;
+	float: left;
+	padding-left: 50px;
+	text-align: left;
+	color: #4E5DFF;
+
+}
+
+.bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-left-color: #4E5DFF;
+	border-right: 0;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+
+.bubble_left	{
+	float: right;
+	
+	
+}
+
+.bubble_left:after	{
+	
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-right-color: #4E5DFF;
+	border-left: 0;
+	margin-top: -10px;
+	margin-left: -10px;
+	
+}
+
+
+
+
+
+
+
+	
